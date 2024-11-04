@@ -1,0 +1,342 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+
+body {
+  scroll-behavior: smooth;
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  background-color: #121212 !important;
+  color: #fff !important;
+  font-family: monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+
+p,
+a,
+li,
+button,
+ul {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+button {
+  border: 0;
+  background-color: transparent;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.navbar-brand {
+  color: whitesmoke;
+}
+
+nav.navbar .navbar-nav .nav-link.navbar-link {
+  font-weight: 400;
+  color: #fff;
+  letter-spacing: 1px;
+  padding: 0 25px;
+  font-size: 18px;
+  opacity: 0.75;
+}
+
+#rsvp-txt {
+  color: goldenrod;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "CustomFont2";
+  src: url(assets/Julio\ Santa_DEMO.ttf);
+}
+
+@font-face {
+  font-family: "CustomFont";
+  src: url(assets/AlexBrush-Regular.ttf);
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 16px;
+  }
+  button {
+    font-size: 16px;
+  }
+}
+
+.home-start {
+  margin-top: 0;
+  padding: 100px 20px 100px 20px;
+}
+
+.home-start h1 {
+  font-family: "CustomFont2", monospace; /* Use the font family */
+  font-size: 65px;
+  letter-spacing: 0.8px;
+  color: #800208;
+  margin-bottom: 10px;
+}
+
+.home-start-top {
+  color: white;
+}
+
+.home-start h2 {
+  font-family: "CustomFont", monospace; /* Use the font family */
+  font-size: 65px;
+  letter-spacing: 0.9px;
+}
+
+.wedding-date {
+  font-size: 15px;
+  margin: 10px 0px 60px 0px;
+}
+
+.home-start-bottom {
+  color: #800208;
+  margin-top: 20px;
+}
+
+.home-btn-txt {
+  color: gray;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 96%;
+}
+
+.home-start button {
+  margin-top: 40px;
+}
+
+.home-start button:hover svg {
+  margin-left: 25px;
+  transform: scale(1.3);
+}
+
+.home-start a {
+  text-decoration: none;
+}
+
+.rsvp-section {
+  padding: 80px 10px 80px 00px;
+}
+
+.rsvp-section h3 {
+  font-family: "CustomFont", monospace;
+  padding-bottom: 30px;
+  letter-spacing: 3px;
+  font-size: 55px;
+  color: wheat;
+}
+
+.rsvp-paragraph {
+  font-size: 14px;
+  margin-bottom: 60px;
+}
+
+.rsvp-heart {
+  padding: 0 10px 0 10px;
+  color: #800208;
+}
+
+.guest-row {
+  margin: 10px 0px 15px 0px;
+  font-size: 14px;
+}
+
+.guest-heart {
+  margin: 0px 10px 0px 10px;
+  color: red;
+}
+
+.form-labels {
+  font-size: 35px;
+  font-family: "CustomFont", monospace;
+  margin: 20px 0px 20px 0px;
+  color: wheat;
+}
+
+.attending-row p {
+  font-size: 35px;
+  font-family: "CustomFont", monospace;
+  margin: 30px 0px 20px 0px;
+  color: wheat;
+}
+
+.danger {
+  color: red;
+  font-size: 18px;
+}
+
+.success {
+  color: green;
+  font-size: 18px;
+}
+
+.location {
+  padding: 120px 0 100px 0;
+}
+
+.location h5 {
+  margin: 50px;
+  font-size: 35px;
+  font-family: "CustomFont", monospace;
+}
+
+.travel-header {
+  font-size: 1.5rem;
+  color: #e63946; /* Accent color */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.p-travel-information {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #f5f5f5; 
+}
+
+.travel-options-list {
+  padding: 0;
+  margin-top: 20px;
+}
+
+.travel-options-list li {
+  list-style: none;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.travel-options-list li strong {
+  color: #e63946;
+}
+
+.travel-options-list .text-muted {
+  color: #6c757d; 
+}
+
+.event-tab, .tba-tab {
+  background-color: #1a1a1a; 
+  color: #f5f5f5; 
+  padding: 20px 30px;
+  border-radius: 8px;
+}
+
+.event-p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.event-signoff {
+  font-size: 1.1rem;
+  text-align: center;
+  margin-top: 1.5rem;
+  color:#800208;
+}
+
+.tba-info {
+  font-size: 1rem;
+  color: #f5f5f5;
+  line-height: 1.6;
+}
+
+.event-tab{
+  padding: 10px;
+  font-size: 20px;
+}
+
+.event-tab p {
+  margin-bottom: 20px;
+}
+
+#link-berg-211{
+  color:#800208;
+}
+
+.p-travel-information {
+  margin-bottom: 30px;
+}
+
+.p-header {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.event-red {
+  color: #800208;
+}
+
+.rhysandaleximg {
+  width: 70%;
+  height: auto;
+}
+
+footer {
+  padding: 20px;
+}
+
+.heart {
+  animation: pulse 1s linear infinite;
+  color: #800208;
+}
+
+#back-to-top svg:hover {
+  box-shadow: 0 0 15px white;
+  border-radius: 100%;
+  transition: 0.3s ease-in-out;
+  transform: scale(1.1);
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.3);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
